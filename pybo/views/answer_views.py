@@ -2,18 +2,27 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
+from konlpy.tag import Mecab
 
 from ..forms import AnswerForm
 from ..models import Question, Answer
+
+import logging
+logger = logging.getLogger('pybo')
 
 
 def answer_create(request, question_id):
     """
     pybo 답변등록
     """
+
     question = get_object_or_404(Question, pk=question_id)
     if request.method == "POST":
+        mecab = Mecab()
+
         form = AnswerForm(request.POST)
+        logger.info("test");
+        logger.info(mecab.morphs(request.POST.get('content')))
         if form.is_valid():
             answer = form.save(commit=False)
             answer.create_date = timezone.now()

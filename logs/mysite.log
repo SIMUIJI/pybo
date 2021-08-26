@@ -14,3 +14,163 @@
 2021-08-26 07:51:26,522 [INFO] pybo: 안녕하세여
 2021-08-26 07:51:30,539 [INFO] pybo: 안녕하세여
 2021-08-26 07:51:32,711 [INFO] pybo: 안녕하세여
+2021-08-26 08:39:44,520 [WARNING] django.request: Not Found: /bybo
+2021-08-26 08:39:45,012 [WARNING] django.request: Not Found: /favicon.ico
+2021-08-26 08:39:47,516 [WARNING] django.request: Not Found: /bybo
+2021-08-26 08:39:48,624 [WARNING] django.request: Not Found: /bybo
+2021-08-26 08:39:55,253 [INFO] pybo: 안녕하세여
+2021-08-26 09:25:55,753 [INFO] pybo: test
+2021-08-26 09:25:55,757 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(form.content);
+AttributeError: 'AnswerForm' object has no attribute 'content'
+2021-08-26 09:27:46,847 [INFO] pybo: test
+2021-08-26 09:27:46,847 [INFO] pybo: <tr><th><label for="id_content">답변내용:</label></th><td><textarea name="content" cols="40" rows="10" required id="id_content">
+ddfdfd</textarea></td></tr>
+2021-08-26 09:29:43,102 [INFO] pybo: test
+2021-08-26 09:29:43,130 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(form.id_content);
+AttributeError: 'AnswerForm' object has no attribute 'id_content'
+2021-08-26 09:31:05,142 [INFO] pybo: test
+2021-08-26 09:31:05,143 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(request);
+AttributeError: 'AnswerForm' object has no attribute 'content'
+2021-08-26 09:31:10,846 [INFO] pybo: test
+2021-08-26 09:31:10,847 [INFO] pybo: <WSGIRequest: POST '/pybo/answer/create/3/'>
+2021-08-26 09:32:00,889 [INFO] pybo: test
+2021-08-26 09:32:00,917 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(request.form);
+AttributeError: 'WSGIRequest' object has no attribute 'form'
+2021-08-26 09:36:00,278 [INFO] pybo: test
+2021-08-26 09:36:00,279 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(request.content);
+AttributeError: 'AnswerForm' object has no attribute 'id_content'
+2021-08-26 09:38:12,792 [INFO] pybo: test
+2021-08-26 09:38:12,793 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(form.fields);
+AttributeError: 'AnswerForm' object has no attribute 'content'
+2021-08-26 09:38:47,062 [INFO] pybo: test
+2021-08-26 09:38:47,063 [INFO] pybo: <WSGIRequest: POST '/pybo/answer/create/3/'>
+2021-08-26 09:39:07,720 [INFO] pybo: test
+2021-08-26 09:39:07,720 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(form.content);
+AttributeError: 'WSGIRequest' object has no attribute 'form'
+2021-08-26 09:44:12,710 [INFO] pybo: test
+2021-08-26 09:44:12,710 [INFO] pybo: <tr><th><label for="id_content">답변내용:</label></th><td><textarea name="content" cols="40" rows="10" required id="id_content">
+fdgfh</textarea></td></tr>
+2021-08-26 09:44:19,663 [INFO] pybo: test
+2021-08-26 09:44:19,685 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(request.data.get('content'));
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+2021-08-26 09:44:56,005 [INFO] pybo: test
+2021-08-26 09:44:56,006 [INFO] pybo: dd
+2021-08-26 09:45:01,871 [INFO] pybo: test
+2021-08-26 09:45:01,871 [INFO] pybo: <WSGIRequest: POST '/pybo/answer/create/3/'>
+2021-08-26 09:45:10,460 [INFO] pybo: test
+2021-08-26 09:45:10,464 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(request.POST.get('content'));
+AttributeError: 'AnswerForm' object has no attribute 'content'
+2021-08-26 09:45:41,406 [INFO] pybo: test
+2021-08-26 09:45:41,407 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(request.POST.get('content'));
+AttributeError: 'WSGIRequest' object has no attribute 'form'
+2021-08-26 09:45:45,201 [INFO] pybo: test
+2021-08-26 09:45:45,201 [INFO] pybo: ccc
+2021-08-26 09:47:01,065 [INFO] pybo: test
+2021-08-26 09:47:01,067 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(request.POST.get('content'));
+AttributeError: 'WSGIRequest' object has no attribute 'data'
+2021-08-26 09:47:05,119 [INFO] pybo: test
+2021-08-26 09:47:05,119 [INFO] pybo: 한국어(韓國語, 영어: Korean)는 대한민국과 조선민주주의인민공화국의 공용어로, 대한민국에서는 한국어 또는 한국말이라고 하고, 조선민주주의인민공화국에서는 조선어(朝鮮語) 또는 조선말이라고 부른다
+2021-08-26 09:49:15,077 [INFO] pybo: test
+2021-08-26 09:49:15,078 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(mecab.morphs(request.POST.get('content')))
+AttributeError: 'AnswerForm' object has no attribute 'content'
+2021-08-26 09:49:18,950 [INFO] pybo: test
+2021-08-26 09:49:18,953 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 25, in answer_create
+    logger.info(mecab.morphs(request.POST.get('content')))
+AttributeError: 'WSGIRequest' object has no attribute 'form'
+2021-08-26 09:49:21,067 [INFO] pybo: test
+2021-08-26 09:49:21,068 [INFO] pybo: 한국어(韓國語, 영어: Korean)는 대한민국과 조선민주주의인민공화국의 공용어로, 대한민국에서는 한국어 또는 한국말이라고 하고, 조선민주주의인민공화국에서는 조선어(朝鮮語) 또는 조선말이라고 부른다
+2021-08-26 09:50:03,255 [INFO] pybo: test
+2021-08-26 09:50:03,256 [INFO] pybo: <tr><th><label for="id_content">답변내용:</label></th><td><textarea name="content" cols="40" rows="10" required id="id_content">
+한국어(韓國語, 영어: Korean)는 대한민국과 조선민주주의인민공화국의 공용어로, 대한민국에서는 한국어 또는 한국말이라고 하고, 조선민주주의인민공화국에서는 조선어(朝鮮語) 또는 조선말이라고 부른다</textarea></td></tr>
+2021-08-26 09:50:40,389 [INFO] pybo: test
+2021-08-26 09:50:41,772 [INFO] pybo: ['한국어', '(', '韓', '國語', ',', '영어', ':', 'Korean', ')', '는', '대한민국', '과', '조선', '민주주의', '인민공화국', '의', '공용어', '로', ',', '대한민국', '에서', '는', '한국어', '또는', '한국', '말', '이', '라고', '하', '고', ',', '조선', '민주주의', '인민공화국', '에서', '는', '조선어', '(', '朝鮮', '語', ')', '또는', '조선말', '이', '라고', '부른다']
