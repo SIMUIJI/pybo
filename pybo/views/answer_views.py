@@ -5,7 +5,7 @@ from django.utils import timezone
 from konlpy.tag import Mecab
 
 from ..forms import AnswerForm
-from ..models import Question, Answer
+from ..models import Question, Answer, Word
 
 import logging
 logger = logging.getLogger('pybo')
@@ -22,13 +22,19 @@ def answer_create(request, question_id):
 
         form = AnswerForm(request.POST)
         logger.info("test");
-        logger.info(mecab.morphs(request.POST.get('content')))
-        if form.is_valid():
-            answer = form.save(commit=False)
-            answer.create_date = timezone.now()
-            answer.question = question
-            answer.save()
-            return redirect('pybo:detail', question_id=question.id)
+        mecab_words = mecab.pos(request.POST.get('content'))
+        logger.info(mecab_words[1][1])
+        word = Word(content=request.POST.get('content') ,create_date=timezone.now(), SSO=mecab_words[1][0])
+        word.save()
+
+
+
+        # if form.is_valid():
+        #     answer = form.save(commit=False)
+        #     answer.create_date = timezone.now()
+        #     answer.question = question
+        #     answer.save()
+            # return redirect('pybo:detail', question_id=question.id)
     else:
         form = AnswerForm()
     context = {'question': question, 'form': form}

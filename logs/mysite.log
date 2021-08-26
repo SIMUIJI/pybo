@@ -174,3 +174,559 @@ AttributeError: 'WSGIRequest' object has no attribute 'form'
 한국어(韓國語, 영어: Korean)는 대한민국과 조선민주주의인민공화국의 공용어로, 대한민국에서는 한국어 또는 한국말이라고 하고, 조선민주주의인민공화국에서는 조선어(朝鮮語) 또는 조선말이라고 부른다</textarea></td></tr>
 2021-08-26 09:50:40,389 [INFO] pybo: test
 2021-08-26 09:50:41,772 [INFO] pybo: ['한국어', '(', '韓', '國語', ',', '영어', ':', 'Korean', ')', '는', '대한민국', '과', '조선', '민주주의', '인민공화국', '의', '공용어', '로', ',', '대한민국', '에서', '는', '한국어', '또는', '한국', '말', '이', '라고', '하', '고', ',', '조선', '민주주의', '인민공화국', '에서', '는', '조선어', '(', '朝鮮', '語', ')', '또는', '조선말', '이', '라고', '부른다']
+2021-08-26 10:00:40,601 [INFO] pybo: 안녕하세여
+2021-08-26 10:00:45,148 [WARNING] django.request: Not Found: /favicon.ico
+2021-08-26 10:01:34,257 [INFO] pybo: test
+2021-08-26 10:01:34,261 [INFO] pybo: [('한국어', 'NNG'), ('(', 'SSO'), ('韓', 'NNG'), ('國語', 'NNG'), (',', 'SC'), ('영어', 'NNG'), (':', 'SC'), ('Korean', 'SL'), (')', 'SSC'), ('는', 'JX'), ('대한민국', 'NNP'), ('과', 'JC'), ('조선', 'NNP'), ('민주주의', 'NNG'), ('인민공화국', 'NNP'), ('의', 'JKG'), ('공용어', 'NNG'), ('로', 'JKB'), (',', 'SC'), ('대한민국', 'NNP'), ('에서', 'JKB'), ('는', 'JX'), ('한국어', 'NNG'), ('또는', 'MAJ'), ('한국', 'NNP'), ('말', 'NNG'), ('이', 'VCP'), ('라고', 'EC'), ('하', 'VV'), ('고', 'EC'), (',', 'SC'), ('조선', 'NNP'), ('민주주의', 'NNG'), ('인민공화국', 'NNP'), ('에서', 'JKB'), ('는', 'JX'), ('조선어', 'NNG'), ('(', 'SSO'), ('朝鮮', 'NNG'), ('語', 'XSN'), (')', 'SSC'), ('또는', 'MAJ'), ('조선말', 'NNG'), ('이', 'VCP'), ('라고', 'EC'), ('부른다', 'VV+EC')]
+2021-08-26 10:05:29,021 [INFO] pybo: test
+2021-08-26 10:05:29,024 [INFO] pybo: 한국어
+2021-08-26 10:10:25,188 [INFO] pybo: test
+2021-08-26 10:10:25,192 [INFO] pybo: 한국어
+2021-08-26 10:11:44,786 [INFO] pybo: test
+2021-08-26 10:11:44,790 [INFO] pybo: 한국어
+2021-08-26 10:11:44,790 [INFO] pybo: NNG
+2021-08-26 10:11:44,790 [INFO] pybo: (
+2021-08-26 10:11:44,790 [INFO] pybo: SSO
+2021-08-26 10:11:44,791 [INFO] pybo: 韓
+2021-08-26 10:11:44,791 [INFO] pybo: NNG
+2021-08-26 10:11:44,791 [INFO] pybo: 國語
+2021-08-26 10:11:44,791 [INFO] pybo: NNG
+2021-08-26 10:11:44,791 [INFO] pybo: ,
+2021-08-26 10:11:44,792 [INFO] pybo: SC
+2021-08-26 10:11:44,792 [INFO] pybo: 영어
+2021-08-26 10:11:44,792 [INFO] pybo: NNG
+2021-08-26 10:11:44,792 [INFO] pybo: :
+2021-08-26 10:11:44,792 [INFO] pybo: SC
+2021-08-26 10:11:44,792 [INFO] pybo: Korean
+2021-08-26 10:11:44,793 [INFO] pybo: SL
+2021-08-26 10:11:44,793 [INFO] pybo: )
+2021-08-26 10:11:44,793 [INFO] pybo: SSC
+2021-08-26 10:11:44,793 [INFO] pybo: 는
+2021-08-26 10:11:44,793 [INFO] pybo: JX
+2021-08-26 10:11:44,794 [INFO] pybo: 대한민국
+2021-08-26 10:11:44,794 [INFO] pybo: NNP
+2021-08-26 10:11:44,794 [INFO] pybo: 과
+2021-08-26 10:11:44,794 [INFO] pybo: JC
+2021-08-26 10:11:44,794 [INFO] pybo: 조선
+2021-08-26 10:11:44,794 [INFO] pybo: NNP
+2021-08-26 10:11:44,795 [INFO] pybo: 민주주의
+2021-08-26 10:11:44,795 [INFO] pybo: NNG
+2021-08-26 10:11:44,796 [INFO] pybo: 인민공화국
+2021-08-26 10:11:44,796 [INFO] pybo: NNP
+2021-08-26 10:11:44,796 [INFO] pybo: 의
+2021-08-26 10:11:44,796 [INFO] pybo: JKG
+2021-08-26 10:11:44,797 [INFO] pybo: 공용어
+2021-08-26 10:11:44,797 [INFO] pybo: NNG
+2021-08-26 10:11:44,797 [INFO] pybo: 로
+2021-08-26 10:11:44,797 [INFO] pybo: JKB
+2021-08-26 10:11:44,797 [INFO] pybo: ,
+2021-08-26 10:11:44,798 [INFO] pybo: SC
+2021-08-26 10:11:44,798 [INFO] pybo: 대한민국
+2021-08-26 10:11:44,798 [INFO] pybo: NNP
+2021-08-26 10:11:44,798 [INFO] pybo: 에서
+2021-08-26 10:11:44,798 [INFO] pybo: JKB
+2021-08-26 10:11:44,799 [INFO] pybo: 는
+2021-08-26 10:11:44,799 [INFO] pybo: JX
+2021-08-26 10:11:44,799 [INFO] pybo: 한국어
+2021-08-26 10:11:44,799 [INFO] pybo: NNG
+2021-08-26 10:11:44,799 [INFO] pybo: 또는
+2021-08-26 10:11:44,800 [INFO] pybo: MAJ
+2021-08-26 10:11:44,800 [INFO] pybo: 한국
+2021-08-26 10:11:44,800 [INFO] pybo: NNP
+2021-08-26 10:11:44,800 [INFO] pybo: 말
+2021-08-26 10:11:44,801 [INFO] pybo: NNG
+2021-08-26 10:11:44,801 [INFO] pybo: 이
+2021-08-26 10:11:44,801 [INFO] pybo: VCP
+2021-08-26 10:11:44,801 [INFO] pybo: 라고
+2021-08-26 10:11:44,802 [INFO] pybo: EC
+2021-08-26 10:11:44,802 [INFO] pybo: 하
+2021-08-26 10:11:44,802 [INFO] pybo: VV
+2021-08-26 10:11:44,802 [INFO] pybo: 고
+2021-08-26 10:11:44,803 [INFO] pybo: EC
+2021-08-26 10:11:44,803 [INFO] pybo: ,
+2021-08-26 10:11:44,803 [INFO] pybo: SC
+2021-08-26 10:11:44,803 [INFO] pybo: 조선
+2021-08-26 10:11:44,804 [INFO] pybo: NNP
+2021-08-26 10:11:44,804 [INFO] pybo: 민주주의
+2021-08-26 10:11:44,804 [INFO] pybo: NNG
+2021-08-26 10:11:44,804 [INFO] pybo: 인민공화국
+2021-08-26 10:11:44,805 [INFO] pybo: NNP
+2021-08-26 10:11:44,805 [INFO] pybo: 에서
+2021-08-26 10:11:44,805 [INFO] pybo: JKB
+2021-08-26 10:11:44,805 [INFO] pybo: 는
+2021-08-26 10:11:44,805 [INFO] pybo: JX
+2021-08-26 10:11:44,806 [INFO] pybo: 조선어
+2021-08-26 10:11:44,806 [INFO] pybo: NNG
+2021-08-26 10:11:44,806 [INFO] pybo: (
+2021-08-26 10:11:44,812 [INFO] pybo: SSO
+2021-08-26 10:11:44,812 [INFO] pybo: 朝鮮
+2021-08-26 10:11:44,813 [INFO] pybo: NNG
+2021-08-26 10:11:44,813 [INFO] pybo: 語
+2021-08-26 10:11:44,813 [INFO] pybo: XSN
+2021-08-26 10:11:44,813 [INFO] pybo: )
+2021-08-26 10:11:44,814 [INFO] pybo: SSC
+2021-08-26 10:11:44,814 [INFO] pybo: 또는
+2021-08-26 10:11:44,814 [INFO] pybo: MAJ
+2021-08-26 10:11:44,814 [INFO] pybo: 조선말
+2021-08-26 10:11:44,815 [INFO] pybo: NNG
+2021-08-26 10:11:44,815 [INFO] pybo: 이
+2021-08-26 10:11:44,815 [INFO] pybo: VCP
+2021-08-26 10:11:44,815 [INFO] pybo: 라고
+2021-08-26 10:11:44,816 [INFO] pybo: EC
+2021-08-26 10:11:44,816 [INFO] pybo: 부른다
+2021-08-26 10:11:44,816 [INFO] pybo: VV+EC
+2021-08-26 10:24:20,779 [INFO] pybo: 안녕하세여
+2021-08-26 10:56:42,633 [WARNING] django.request: Not Found: /favicon.ico
+2021-08-26 10:56:44,583 [INFO] pybo: 안녕하세여
+2021-08-26 10:56:48,625 [INFO] pybo: 안녕하세여
+2021-08-26 10:56:50,426 [INFO] pybo: 안녕하세여
+2021-08-26 10:58:35,551 [INFO] pybo: 안녕하세여
+2021-08-26 11:00:46,869 [INFO] pybo: test
+2021-08-26 11:00:46,873 [INFO] pybo: NNG
+2021-08-26 11:00:46,873 [INFO] pybo: SSO
+2021-08-26 11:00:46,873 [INFO] pybo: NNG
+2021-08-26 11:00:46,873 [INFO] pybo: NNG
+2021-08-26 11:00:46,873 [INFO] pybo: SC
+2021-08-26 11:00:46,874 [INFO] pybo: NNG
+2021-08-26 11:00:46,874 [INFO] pybo: SC
+2021-08-26 11:00:46,874 [INFO] pybo: SL
+2021-08-26 11:00:46,874 [INFO] pybo: SSC
+2021-08-26 11:00:46,874 [INFO] pybo: JX
+2021-08-26 11:00:46,874 [INFO] pybo: NNP
+2021-08-26 11:00:46,875 [INFO] pybo: JC
+2021-08-26 11:00:46,875 [INFO] pybo: NNP
+2021-08-26 11:00:46,875 [INFO] pybo: NNG
+2021-08-26 11:00:46,875 [INFO] pybo: NNP
+2021-08-26 11:00:46,876 [INFO] pybo: JKG
+2021-08-26 11:00:46,876 [INFO] pybo: NNG
+2021-08-26 11:00:46,876 [INFO] pybo: JKB
+2021-08-26 11:00:46,876 [INFO] pybo: SC
+2021-08-26 11:00:46,876 [INFO] pybo: NNP
+2021-08-26 11:00:46,876 [INFO] pybo: JKB
+2021-08-26 11:00:46,877 [INFO] pybo: JX
+2021-08-26 11:00:46,877 [INFO] pybo: NNG
+2021-08-26 11:00:46,877 [INFO] pybo: MAJ
+2021-08-26 11:00:46,877 [INFO] pybo: NNP
+2021-08-26 11:00:46,877 [INFO] pybo: NNG
+2021-08-26 11:00:46,877 [INFO] pybo: VCP
+2021-08-26 11:00:46,878 [INFO] pybo: EC
+2021-08-26 11:00:46,878 [INFO] pybo: VV
+2021-08-26 11:00:46,878 [INFO] pybo: EC
+2021-08-26 11:00:46,878 [INFO] pybo: SC
+2021-08-26 11:00:46,878 [INFO] pybo: NNP
+2021-08-26 11:00:46,879 [INFO] pybo: NNG
+2021-08-26 11:00:46,879 [INFO] pybo: NNP
+2021-08-26 11:00:46,879 [INFO] pybo: JKB
+2021-08-26 11:00:46,879 [INFO] pybo: JX
+2021-08-26 11:00:46,879 [INFO] pybo: NNG
+2021-08-26 11:00:46,879 [INFO] pybo: SSO
+2021-08-26 11:00:46,880 [INFO] pybo: NNG
+2021-08-26 11:00:46,880 [INFO] pybo: XSN
+2021-08-26 11:00:46,880 [INFO] pybo: SSC
+2021-08-26 11:00:46,880 [INFO] pybo: MAJ
+2021-08-26 11:00:46,880 [INFO] pybo: NNG
+2021-08-26 11:00:46,880 [INFO] pybo: VCP
+2021-08-26 11:00:46,881 [INFO] pybo: EC
+2021-08-26 11:10:31,149 [INFO] pybo: test
+2021-08-26 11:10:31,177 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (1, , , null, 한국어, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 29, in answer_create
+    word.save()
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (1, , , null, 한국어, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+2021-08-26 11:10:37,322 [INFO] pybo: test
+2021-08-26 11:10:37,351 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (2, , , null, 한국어, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 29, in answer_create
+    word.save()
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (2, , , null, 한국어, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+2021-08-26 11:10:41,130 [INFO] pybo: test
+2021-08-26 11:10:41,136 [INFO] pybo: NNG
+2021-08-26 11:10:41,136 [INFO] pybo: SSO
+2021-08-26 11:10:41,136 [INFO] pybo: NNG
+2021-08-26 11:10:41,136 [INFO] pybo: NNG
+2021-08-26 11:10:41,137 [INFO] pybo: SC
+2021-08-26 11:10:41,137 [INFO] pybo: NNG
+2021-08-26 11:10:41,138 [INFO] pybo: SC
+2021-08-26 11:10:41,138 [INFO] pybo: SL
+2021-08-26 11:10:41,138 [INFO] pybo: SSC
+2021-08-26 11:10:41,139 [INFO] pybo: JX
+2021-08-26 11:10:41,139 [INFO] pybo: NNP
+2021-08-26 11:10:41,139 [INFO] pybo: JC
+2021-08-26 11:10:41,139 [INFO] pybo: NNP
+2021-08-26 11:10:41,140 [INFO] pybo: NNG
+2021-08-26 11:10:41,140 [INFO] pybo: NNP
+2021-08-26 11:10:41,140 [INFO] pybo: JKG
+2021-08-26 11:10:41,140 [INFO] pybo: NNG
+2021-08-26 11:10:41,141 [INFO] pybo: JKB
+2021-08-26 11:10:41,141 [INFO] pybo: SC
+2021-08-26 11:10:41,141 [INFO] pybo: NNP
+2021-08-26 11:10:41,141 [INFO] pybo: JKB
+2021-08-26 11:10:41,142 [INFO] pybo: JX
+2021-08-26 11:10:41,142 [INFO] pybo: NNG
+2021-08-26 11:10:41,142 [INFO] pybo: MAJ
+2021-08-26 11:10:41,142 [INFO] pybo: NNP
+2021-08-26 11:10:41,143 [INFO] pybo: NNG
+2021-08-26 11:10:41,143 [INFO] pybo: VCP
+2021-08-26 11:10:41,143 [INFO] pybo: EC
+2021-08-26 11:10:41,143 [INFO] pybo: VV
+2021-08-26 11:10:41,144 [INFO] pybo: EC
+2021-08-26 11:10:41,144 [INFO] pybo: SC
+2021-08-26 11:10:41,144 [INFO] pybo: NNP
+2021-08-26 11:10:41,144 [INFO] pybo: NNG
+2021-08-26 11:10:41,145 [INFO] pybo: NNP
+2021-08-26 11:10:41,145 [INFO] pybo: JKB
+2021-08-26 11:10:41,145 [INFO] pybo: JX
+2021-08-26 11:10:41,146 [INFO] pybo: NNG
+2021-08-26 11:10:41,146 [INFO] pybo: SSO
+2021-08-26 11:10:41,146 [INFO] pybo: NNG
+2021-08-26 11:10:41,147 [INFO] pybo: XSN
+2021-08-26 11:10:41,148 [INFO] pybo: SSC
+2021-08-26 11:10:41,148 [INFO] pybo: MAJ
+2021-08-26 11:10:41,150 [INFO] pybo: NNG
+2021-08-26 11:10:41,152 [INFO] pybo: VCP
+2021-08-26 11:10:41,153 [INFO] pybo: EC
+2021-08-26 11:19:14,705 [INFO] pybo: test
+2021-08-26 11:19:14,711 [INFO] pybo: NNG
+2021-08-26 11:19:14,712 [INFO] pybo: SSO
+2021-08-26 11:19:14,713 [INFO] pybo: NNG
+2021-08-26 11:19:14,713 [INFO] pybo: NNG
+2021-08-26 11:19:14,714 [INFO] pybo: SC
+2021-08-26 11:19:14,714 [INFO] pybo: NNG
+2021-08-26 11:19:14,714 [INFO] pybo: SC
+2021-08-26 11:19:14,714 [INFO] pybo: SL
+2021-08-26 11:19:14,714 [INFO] pybo: SSC
+2021-08-26 11:19:14,715 [INFO] pybo: JX
+2021-08-26 11:19:14,715 [INFO] pybo: NNP
+2021-08-26 11:19:14,715 [INFO] pybo: JC
+2021-08-26 11:19:14,715 [INFO] pybo: NNP
+2021-08-26 11:19:14,715 [INFO] pybo: NNG
+2021-08-26 11:19:14,716 [INFO] pybo: NNP
+2021-08-26 11:19:14,716 [INFO] pybo: JKG
+2021-08-26 11:19:14,716 [INFO] pybo: NNG
+2021-08-26 11:19:14,716 [INFO] pybo: JKB
+2021-08-26 11:19:14,716 [INFO] pybo: SC
+2021-08-26 11:19:14,716 [INFO] pybo: NNP
+2021-08-26 11:19:14,717 [INFO] pybo: JKB
+2021-08-26 11:19:14,717 [INFO] pybo: JX
+2021-08-26 11:19:14,717 [INFO] pybo: NNG
+2021-08-26 11:19:14,717 [INFO] pybo: MAJ
+2021-08-26 11:19:14,717 [INFO] pybo: NNP
+2021-08-26 11:19:14,718 [INFO] pybo: NNG
+2021-08-26 11:19:14,718 [INFO] pybo: VCP
+2021-08-26 11:19:14,718 [INFO] pybo: EC
+2021-08-26 11:19:14,718 [INFO] pybo: VV
+2021-08-26 11:19:14,718 [INFO] pybo: EC
+2021-08-26 11:19:14,718 [INFO] pybo: SC
+2021-08-26 11:19:14,719 [INFO] pybo: NNP
+2021-08-26 11:19:14,719 [INFO] pybo: NNG
+2021-08-26 11:19:14,719 [INFO] pybo: NNP
+2021-08-26 11:19:14,719 [INFO] pybo: JKB
+2021-08-26 11:19:14,719 [INFO] pybo: JX
+2021-08-26 11:19:14,720 [INFO] pybo: NNG
+2021-08-26 11:19:14,720 [INFO] pybo: SSO
+2021-08-26 11:19:14,720 [INFO] pybo: NNG
+2021-08-26 11:19:14,720 [INFO] pybo: XSN
+2021-08-26 11:19:14,720 [INFO] pybo: SSC
+2021-08-26 11:19:14,721 [INFO] pybo: MAJ
+2021-08-26 11:19:14,721 [INFO] pybo: NNG
+2021-08-26 11:19:14,721 [INFO] pybo: VCP
+2021-08-26 11:19:14,721 [INFO] pybo: EC
+2021-08-26 11:19:20,879 [INFO] pybo: test
+2021-08-26 11:19:20,908 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (3, , 한국어(韓國語, 영어: Korean)는 대한민국과 조선..., null, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 28, in answer_create
+    word.save()
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (3, , 한국어(韓國語, 영어: Korean)는 대한민국과 조선..., null, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+2021-08-26 11:20:04,166 [INFO] pybo: test
+2021-08-26 11:20:07,321 [INFO] pybo: test
+2021-08-26 11:20:07,331 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (5, , , null, 한국어, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 29, in answer_create
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (5, , , null, 한국어, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+2021-08-26 11:20:57,371 [INFO] pybo: test
+2021-08-26 11:24:34,943 [INFO] pybo: test
+2021-08-26 11:24:34,947 [INFO] pybo: NNG
+2021-08-26 11:24:39,556 [INFO] pybo: test
+2021-08-26 11:24:39,569 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (7, , 한국어(韓國語, 영어: Korean)는 대한민국과 조선..., null, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 28, in answer_create
+    # word.save()
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (7, , 한국어(韓國語, 영어: Korean)는 대한민국과 조선..., null, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+2021-08-26 11:24:42,289 [INFO] pybo: test
+2021-08-26 11:24:42,298 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (8, , , null, 한국어, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 29, in answer_create
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 727, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 765, in save_base
+    force_update, using, update_fields,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 868, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw,
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/query.py", line 1270, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python3.6/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/usr/local/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: 오류:  "create_date" 칼럼의 null 값이 not null 제약조건을 위반했습니다.
+DETAIL:  실패한 자료: (8, , , null, 한국어, , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , )
+
+2021-08-26 11:24:43,942 [INFO] pybo: test
+2021-08-26 11:25:10,218 [INFO] pybo: test
+2021-08-26 11:25:10,221 [INFO] pybo: NNG
+2021-08-26 11:25:45,979 [INFO] pybo: test
+2021-08-26 11:25:45,983 [INFO] pybo: 한국어
+2021-08-26 11:29:46,281 [INFO] pybo: test
+2021-08-26 11:29:46,284 [INFO] pybo: 한국어
+2021-08-26 11:29:46,311 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 27, in answer_create
+    word = Word(content=request.POST.get('content') ,create_date=timezone.now(), NNG=mecab_words[0][0])
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Word() got an unexpected keyword argument 'NNG'
+2021-08-26 11:30:05,010 [INFO] pybo: test
+2021-08-26 11:30:05,013 [INFO] pybo: 한국어
+2021-08-26 11:30:05,048 [ERROR] django.request: Internal Server Error: /pybo/answer/create/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/web/pybo/views/answer_views.py", line 27, in answer_create
+    word = Word(content=request.POST.get('content') ,create_date=timezone.now(), NNG=mecab_words[0][0])
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/base.py", line 503, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: Word() got an unexpected keyword argument 'NNG'
+2021-08-26 11:31:44,355 [INFO] pybo: test
+2021-08-26 11:31:44,359 [INFO] pybo: 한국어
+2021-08-26 11:32:44,670 [INFO] pybo: test
+2021-08-26 11:32:44,673 [INFO] pybo: SSO
+2021-08-26 11:36:16,441 [INFO] pybo: test
+2021-08-26 11:36:16,445 [INFO] pybo: SSO
+2021-08-26 11:36:20,168 [INFO] pybo: test
+2021-08-26 11:36:20,172 [INFO] pybo: SSO
